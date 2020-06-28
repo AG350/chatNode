@@ -4,7 +4,7 @@
   "description": "chat con node y soketIO",
   "main": "index.js",
   "scripts": {
-    "startdev" : "nodemon server/index.js",
+    "startdev": "nodemon server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,7 +19,7 @@
   "homepage": "https://github.com/AG350/chatNode#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "soket.io": "0.0.1-security"
+    "socket.io": "^2.3.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
